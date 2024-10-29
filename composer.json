@@ -1,0 +1,17 @@
+{
+  "name": "masterguru/antibot",
+  "description": "Antibot Script",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "homepage": "https://github.com/masterguru/antibot",
+  "authors": [
+    {
+      "name": "masterguru",
+      "homepage": "http://masterguru.net"
+    }
+   ],
+  "license": "GPL-2.0-only",
+  "autoload": {
+  }
+}

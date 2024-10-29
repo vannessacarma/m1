@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+
+	font: inherit;
+    vertical-align: baseline;
+    color: #ffff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background:#2b2b2b;
+    padding: 20px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #3D818C;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#principal {
+    border: 1px solid #3D818C;
+    padding: 10px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+a.link:hover{
+    color: #007acc;
+    text-decoration: none;
+}
+
+p.menu a{ font-size: 11px; font-weight: normal; font-weight: 500;}
+
+p.paginas{ margin-bottom: 5px;}
+a{
+    text-decoration: none;
+}
+table{
+    width: 100%;
+    font-size: 10px;
+    font-weight: 500;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+table thead tr{
+    background: #3D818C;
+}
+
+table thead tr th{
+    padding: 10px;
+}
+
+table thead tr th.center, table tbody tr td.center{
+    text-align: center;
+}
+
+table tbody tr td{
+    word-break: break-all;
+    color: #2b2b2b;
+    font-size: 10px;
+    padding: 8px 10px;
+}
+
+table tbody tr.block td{
+    color: rgb(247, 11, 11);
+}
+
+table tbody tr.d3sv td{
+    color: rgb(0, 0, 205);
+}
+
+table tbody tr.l1b3r4d0 td{
+    color: rgb(0, 128, 0);
+}
+
+table tbody tr.infogerais td{
+    color: rgb(0, 128, 0);
+	font-size: 20px;
+}
+
+table tbody tr.infonavega td{
+    color: rgb(0, 128, 0);
+	font-size: 20px;
+}
+
+table tbody tr.infodispositivos td{
+    color: rgb(0, 128, 0);
+	font-size: 20px;
+}
+
+table tbody tr td a{
+    color: #2b2b2b;
+    font-size: 11px;
+}
+
+table tbody tr{
+    background: #ffff;
+}
